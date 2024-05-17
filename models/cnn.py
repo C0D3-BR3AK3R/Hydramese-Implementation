@@ -34,7 +34,7 @@ class CnnSiameseNet(BaseSiameseNet):
             is_training=self.is_training,
             dropout_rate=dropout_rate,
         )
-        
+        print("Good luck with this code lmao.")
         out2 = cnn_layers(
             self.embedded_x2,
             sequence_len,
